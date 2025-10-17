@@ -1,0 +1,2 @@
+PatientID,AccessionNumberList,Age,SeriesDate,NumTimePoints,MaxPIRADS,PCaTrue
+1000,[33224455],[65],[20201201],1,[1.0],[0]

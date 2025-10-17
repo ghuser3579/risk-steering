@@ -1,5 +1,5 @@
-# Context based risk steering
-This repository provides the basic code for 'Imaging Only' risk refinement with prior context  
+# Context aware risk steering
+This repository provides the basic code for 'Imaging Only' risk refinement model that uses prior imaging context  
 This risk refinement framework consists of a) a **representation learner** (RL) model,  b) a **risk estimation/prediction** (RP) model, c) a **temporal learner** (TL) model, and d) **risk refinement** (RR) model.
 
 ## Representation Learner
@@ -15,3 +15,7 @@ Each additional Dense layer (associated with time t after Baseline) predicts the
 
 ## Temporal Learner and Risk Refinement
 The **TL** aggregates temporal history (in the form of an arbitrary number of longitudinal representations distilled from previous visits along with corresponding times of those visits with respect to the current visit) into a change signal to steer the initial risk assessment using **RR** model.
+
+![PCa risk refinement](./Figures/Figure1.jpg)
+
+
