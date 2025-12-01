@@ -23,7 +23,7 @@ data_dir =  '/location/of/data/directory/containing/h5/files'
 csv_dir = '/location/of/csv/directory/'
 # location where results need to be saved
 save_dir = '/location/where/results/need/to/be/saved/'
- 
+
  
 # IMAGE INFORMATION
 img_size_x   = 128

@@ -18,7 +18,7 @@ from skimage.transform import resize
 sys.path.append('/Add/parent/directory') 
 
 from Augment_pretrain import AugmentObject  
-from risk_utils import myCrop3D
+from utils.risk_utils import myCrop3D
  
 class DataLoader_Volume(tf.keras.utils.Sequence):
     def __init__(self, 

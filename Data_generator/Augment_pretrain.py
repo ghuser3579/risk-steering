@@ -10,7 +10,7 @@ import elasticdeform
 import tensorflow_addons as tfa
 from tensorflow.python.ops.numpy_ops import np_config
 np_config.enable_numpy_behavior()
-from skimage import exposure
+ 
 
 class AugmentObject:
     def __init__(self, args):

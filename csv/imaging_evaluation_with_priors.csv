@@ -1,0 +1,3 @@
+PatientID,Curr_Age,Curr_AccNum,Curr_MaxPIRADS,Previous_AccNum,Previous_Age
+1001,48,22334455,2,[11223344],[47]
+1002,78,33445566,4,[44556677, 66554433 ],[76, 75]
