@@ -28,7 +28,8 @@ The **TL** aggregates temporal history (in the form of an arbitrary number of lo
 1. Clone the repository
 2. Create a Virtual Environment/Conda environment (python = 3.9.16) 
 3. Install the required packages specified in requirements.txt
-4. CUDA 11.8, Tensorflow version 2.12.1
+
+
 
 
 
