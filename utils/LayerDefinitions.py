@@ -80,8 +80,8 @@ def initialize_contrast_learner(args, data_type='axt2'):
     g_x = tf.keras.layers.Dropout(args.dropout_fc)(g_x)
     head_x = projection_head(g_x)
     CL_model = tf.keras.Model(input_x, head_x, name='contrast_learner_' + data_type)
-    print('Model inputs:', CL_model.inputs)
-    print('Model outputs:', CL_model.outputs)
+    # print('Model inputs:', CL_model.inputs)
+    # print('Model outputs:', CL_model.outputs)
     return CL_model
 
 
@@ -203,8 +203,8 @@ def initialize_temporal_learner(args, num_classes=5):
     hidden = tf.keras.layers.Dense(num_classes, name='temporal_PH')(hidden)           # change signal
     print('Initializing temporal representation learner')
     temporal_ai = tf.keras.Model([prev_input,curr_input], [hidden], name='temporal_ai')
-    print(f'Model inputs: {temporal_ai.inputs}')
-    print(f'Model outputs: {temporal_ai.outputs}')
+    # print(f'Model inputs: {temporal_ai.inputs}')
+    # print(f'Model outputs: {temporal_ai.outputs}')
     return temporal_ai
 
 class CustomConcatenate(tf.keras.layers.Layer):
